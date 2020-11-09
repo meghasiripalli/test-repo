@@ -32,13 +32,15 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-					<applicationName>sample-jenkins-deployment</applicationName>
+					<uri>https://anypoint.mulesoft.com</uri>
+					<muleVersion>4.3.0</muleVersion>
 					<username>MeghaNOV</username>
 					<password>MeghaNov@12345</password>
+					<applicationName>sample-jenkins-deployment</applicationName>
 					<environment>Sandbox</environment>
-					<workers>1</workers>
-					<workerType>Micro</workerType>
-					<muleVersion>4.3.0</muleVersion>
+					<workerType>MICRO</workerType>
+					<objectStoreV2>true</objectStoreV2>
+					<workers>1</workers>					
 				</cloudHubDeployment>	
 				</configuration>
 			</plugin>
